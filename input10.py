@@ -1,0 +1,6 @@
+num = float(input())
+num1 = int(num)
+str_num = str(num)
+int_num, float_num = str_num.split('.')
+print(int_num)
+print(float_num)
